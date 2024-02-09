@@ -1,0 +1,49 @@
+body {
+    overflow: visible;
+    background-color: turquoise;
+    background-image: linear-gradient(to bottom right, blueviolet, turquoise);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+h1 {
+    color: pink;
+    font: bold;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+}
+
+.title {
+    margin: 30px 30px;
+    position: sticky;
+    top: 10px;
+    border-style: solid;
+    border-color: rgb(56, 28, 212);
+    background-color: rgb(133, 102, 151);
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.normal-text {
+    color: magenta;
+}
+
+.subtitle {
+    text-shadow: 3px 3px rgb(138, 6, 116);
+}
+
+.explanation {
+    color: cornflowerblue;
+}
+
+#nerd-skill-issue {
+    text-shadow: 4px 4px rgb(131, 97, 103);
+}
