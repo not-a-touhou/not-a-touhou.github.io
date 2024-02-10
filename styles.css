@@ -28,6 +28,26 @@ a {
     text-align: center;
 }
 
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_block {
+    margin: 5px;
+    flex: auto;
+    float: left;
+    border-style: ridge;
+    border-color: rgb(144, 255, 236);
+    background-image: linear-gradient(to top left, blueviolet, turquoise);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    width: 333px;
+    height: 100px;
+}
+
 .text {
     text-align: center;
 }
@@ -36,7 +56,7 @@ a {
     color: magenta;
 }
 
-.subtitle {
+.shadow {
     text-shadow: 3px 3px rgb(138, 6, 116);
 }
 
